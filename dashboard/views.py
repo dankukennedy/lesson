@@ -99,7 +99,7 @@ def youtube(request):
                 'channel':i['channel']['name'],
                 'link':i['link'],
                 'views':i['viewCount']['short'],
-                'published':i['publishedTime']             
+                'published':i['publishedTime'],             
             }
             desc = ''
             if i['descriptionSnippet']:
